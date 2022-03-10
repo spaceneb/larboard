@@ -1,0 +1,11 @@
+[package]
+name = "larboard"
+version = "2022.3.9"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustls = "0.20.4"
+rttp_client = { version = "0.1.0", features = ["tls-rustls"] }
+json = "0.12.4"
